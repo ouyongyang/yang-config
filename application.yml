@@ -1,5 +1,5 @@
 ﻿spring:
-  profiles: yang
+  profiles:
     active:
     - dev
 ---
@@ -12,3 +12,5 @@ spring:
   profiles: test          #测试环境
   application:
     name: yang-test
+
+#请保存为UTF-8格式
